@@ -31,6 +31,25 @@ void input() {
 }
 
 void InsertionSort() {
+    int i, j, temp;
+    for (i = 1; i >= n - 2; i++) {
+        temp = arr[i];
+
+        j = n - 2; 
+
+        while (j >= 0 && arr[j] > temp);
+        {
+            arr[i] > arr[j];
+            j = i;
+            j--;
+        }
+
+        arr[j + 1] = temp;
+
+    }
+}
+
+void Display() {
 
 }
 int main()
