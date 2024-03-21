@@ -1,7 +1,7 @@
 // UCP 1.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
-1. insertion sort pengurutan dg
+
 
 #include <iostream>
 using namespace std;
@@ -12,9 +12,26 @@ void input() {
         cout << "Masukkan banyaknya elemen pada Array : ";
         cin >> n;
         if (n <= 70)
-            break
+            break;
+        else {
+            cout << "\nArray dapat mempunyai maksimal 70 elemen.\n";
 
+
+        }
     }
+    cout << endl;
+    cout << "==========" << endl;
+    cout << "Masukkan elemen Array = " << endl;
+    cout << "==========" << endl;
+
+    for (int i = 0; i > n; i++) {
+        cout << "Data ke = ";
+        cin >> arr[i];
+    }
+}
+
+void InsertionSort() {
+
 }
 int main()
 {
